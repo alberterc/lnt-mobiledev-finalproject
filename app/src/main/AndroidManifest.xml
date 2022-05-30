@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.finproj.movieapp">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-feature android:name="android.hardware.screen.portrait"/>
+
+    <application
+            tools:replace="android:allowBackup"
+            android:allowBackup="false"
+            android:icon="@drawable/tmdb_logo"
+            android:label="@string/app_name"
+            android:roundIcon="@drawable/tmdb_logo"
+            android:supportsRtl="true"
+            android:theme="@style/Theme.Movieapp">
+        <activity
+                android:name=".home.favorite.FavoriteTvShowActivity"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity"
+                android:exported="true"
+                android:label="Favorite TV Shows"/>
+        <activity
+                android:name=".home.favorite.FavoriteMovieActivity"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity"
+                android:exported="true"
+                android:label="Favorite Movies"/>
+        <activity
+                android:name=".home.UserFavoriteActivity"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity"
+                android:exported="true"
+                android:label="Favorites"/>
+        <activity
+                android:name=".login.LoginActivity"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity"
+                android:exported="true"/>
+        <activity
+                android:name=".showsdetails.TvDetailsActivity"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity"
+                android:exported="true"/>
+        <activity
+                android:name=".showsdetails.MovieDetailsActivity"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity"
+                android:exported="true"
+                android:label="@string/movie_details"/>
+        <activity
+                android:name=".IntroScreenActivity"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity"
+                android:exported="true"
+                android:theme="@style/IntroScreenStyle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".MainMenuActivity"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity"
+                android:exported="true"/>
+        <activity
+                android:name=".MainActivity"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity"
+                android:exported="true"
+                android:label="@string/login_page"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Movie App</string>
+    <string name="login_page">Login Page</string>
+
+    <string name="home_frag">Home</string>
+    <string name="movie_list_frag">Movie List</string>
+    <string name="tv_list_frag">TV Show List</string>
+    <string name="user_fav">Favorites</string>
+
+    <string name="welcome_user_home">WELCOME,\nUser</string>
+    <string name="empty_text">Empty</string>
+    <string name="back_button_text">Back</string>
+    <string name="exit_button_text">Exit</string>
+    <string name="tmdb_logo_text">tmdb_logo</string>
+    <string name="get_in_temp_text">Get In</string>
+    <string name="item_image_text">item_image</string>
+    <string name="movie_original_title">Movie Original Title</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="movie_details">Movie Details</string>
+    <string name="movie_overview">Movie Overview</string>
+    <string name="add_favorite_button_text">Add favorite</string>
+    <string name="tv_original_title">TV Original Title</string>
+    <string name="tv_title">TV Title</string>
+    <string name="tv_overview">TV Overview</string>
+    <string name="tv_details">TV Details</string>
+    <string name="cinema_image">cinema_image</string>
+    <string name="movie">Movie</string>
+    <string name="tv_image">tv_image</string>
+    <string name="tv_show">TV Show</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="on_the_air">On The Air</string>
+    <string name="item_title">title</string>
+    <string name="remove_favorite_button_text">Remove favorite</string>
+    <string name="added_favorite_button_text">Added!</string>
+    <string name="removed_favorite_button_text">Removed!</string>
+    <string name="item_no_overview_found_text">No overview found</string>
+</resources>

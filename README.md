@@ -9,4 +9,4 @@ Uses [The Movie Database (TMDb) API](https://www.themoviedb.org/documentation/ap
 - Shows what TV shows are now on the air.
 
 ## Developer
-Albert E (vradnisntlong5@gmail.com)
+Albert E (albertenrico.5@gmail.com)
